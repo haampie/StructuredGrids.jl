@@ -3,6 +3,8 @@
 Tiny package for lazy structured grids:
 
 ```julia
+julia> using StructuredGrids
+
 julia> g = grid(-2:2, 1:3)
 5×3 StructuredGrid.Grid{Tuple{Int64,Int64},2,Tuple{UnitRange{Int64},UnitRange{Int64}}}:
  (-2, 1)  (-2, 2)  (-2, 3)

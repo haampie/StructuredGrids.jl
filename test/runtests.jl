@@ -1,6 +1,6 @@
 using Test
 
-using StructuredGrid
+using StructuredGrids
 
 @test eltype(grid(1:10)) == Tuple{Int}
 @test eltype(grid(1:10, range(0, 1, length=4))) == Tuple{Int, Float64}

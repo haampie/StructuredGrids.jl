@@ -1,4 +1,4 @@
-module StructuredGrid
+module StructuredGrids
 
 import Base: axes, getindex, size
 
