@@ -1,0 +1,7 @@
+language: julia
+julia:
+    - 1.0
+    - nightly
+after_success:
+  # push coverage results to Codecov
+  - julia -e 'cd(Pkg.dir("StructuredGrids.jl")); Pkg.add("Coverage"); using Coverage; Codecov.submit(Codecov.process_folder())'
