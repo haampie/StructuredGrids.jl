@@ -3,7 +3,7 @@ using Test
 using StructuredGrids
 
 @test eltype(grid(1:10)) == Tuple{Int}
-@test eltype(grid(1:10, range(0, 1, length=4))) == Tuple{Int, Float64}
+@test eltype(grid(1:10, 1.0:10.0)) == Tuple{Int, Float64}
 @test size(grid(1:10, 1:10)) == (10, 10)
 @test axes(grid(1:10, 1:10)) == (Base.OneTo(10), Base.OneTo(10))
 @test all(grid(1:10, 2:5) .== Iterators.product(1:10, 2:5))
