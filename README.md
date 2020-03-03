@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/haampie/StructuredGrids.jl.svg?branch=master)](https://travis-ci.org/haampie/StructuredGrids.jl)
+[![Build Status](https://travis-ci.org/haampie/StructuredGrids.jl.svg?branch=master)](https://travis-ci.org/haampie/StructuredGrids.jl) [![codecov](https://codecov.io/gh/haampie/StructuredGrids.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/haampie/StructuredGrids.jl)
 
 # StructuredGrids.jl
 
