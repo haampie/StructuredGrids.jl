@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/haampie/StructuredGrids.jl.svg?branch=master)](https://travis-ci.org/haampie/StructuredGrids.jl)
+
 # StructuredGrids.jl
 
 Tiny package for lazy structured grids:
